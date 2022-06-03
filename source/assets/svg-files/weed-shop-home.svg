@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_2" data-name="Group 2" transform="translate(-241 -324)">
+    <g id="medical-shops" transform="translate(241 324)">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="30" cy="30" r="30" fill="#abff91"/>
+      <path id="Path_10" data-name="Path 10" d="M23.75,14.375a1.875,1.875,0,0,0-1.875,1.875V35.625h3.75V31.25a3.125,3.125,0,0,1,3.125-3.125h2.5a3.125,3.125,0,0,1,3.125,3.125v4.375h3.75V16.25a1.875,1.875,0,0,0-1.875-1.875Zm10,22.5h7.5a.625.625,0,0,0,0-1.25H39.375V16.25a3.125,3.125,0,0,0-3.125-3.125H23.75a3.125,3.125,0,0,0-3.125,3.125V35.625H18.75a.625.625,0,0,0,0,1.25h15Zm-.627-1.25V31.25a1.875,1.875,0,0,0-1.875-1.875h-2.5a1.875,1.875,0,0,0-1.875,1.875v4.375ZM26.875,21.25a.625.625,0,0,1,.625-.625h1.875V18.75a.625.625,0,0,1,1.25,0v1.875H32.5a.625.625,0,0,1,0,1.25H30.625V23.75a.625.625,0,1,1-1.25,0V21.875H27.5A.625.625,0,0,1,26.875,21.25Z" fill="#090" fill-rule="evenodd"/>
+    </g>
+    <text id="Weed_Shops" data-name="Weed
+Shops" transform="translate(272 369)" fill="#009927" font-size="8" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-10.144" y="0">Weed</tspan><tspan x="-11.484" y="10">Shops</tspan></text>
+  </g>
+</svg>

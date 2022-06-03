@@ -1,0 +1,40 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+rn_path = '../node_modules/react-native'
+rn_maps_path = '../node_modules/react-native-maps'
+
+platform :ios, '10.0'
+
+target 'medsie' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+    # react-native-maps dependencies
+    pod 'react-native-google-maps', :path => '../node_modules/react-native-maps'
+    pod 'GoogleMaps', '3.5.0'
+    pod 'GooglePlaces', '3.5.0'  # Uncomment this line if you want to support GoogleMaps on iOS
+    pod 'Google-Maps-iOS-Utils' # Uncomment this line if you want to support GoogleMaps on iOS
+    # react-native-image-crop-picker dependencies
+    pod 'OpenSSL-Universal', '~>1.1.180' 
+#    use_flipper!({ 'Flipper' => '0.87.0' })
+#    post_install do |installer|
+#      flipper_post_install(installer)
+#    end
+  
+  target 'medsieTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+end
+
+target 'medsie-tvOS' do
+  # Pods for medsie-tvOS  
+
+  target 'medsie-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
+ 
+

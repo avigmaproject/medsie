@@ -1,0 +1,6 @@
+module Pods_medsie {
+  umbrella header "Pods-medsie-umbrella.h"
+
+  export *
+  module * { export * }
+}
